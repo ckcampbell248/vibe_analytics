@@ -44,7 +44,15 @@ Create a new Jupyter notebook (or open one in VS Code) in the same folder where 
 pip install pandas matplotlib seaborn plotly scikit-learn statsmodels
 ```
 
-You're ready to go. Start prompting the AI in your notebook.
+
+
+**Step 4: Set up Jupyter in VS Code**
+
+1. Install the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and the [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) from the VS Code Extensions marketplace.
+2. Open the folder containing your CSV files in VS Code (**File → Open Folder**).
+3. Create a new notebook: open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`), type **"Create: New Jupyter Notebook"**, and select it.
+4. In the top-right corner of the notebook, click **Select Kernel** and choose your Python environment (the one where you installed the packages above).
+5. You're ready to go — start prompting the AI using GitHub Copilot chat in the notebook.
 
 
 
@@ -220,16 +228,4 @@ You're ready to go. Start prompting the AI in your notebook.
 
 
 
-  **Prompt 12: Audience Q&A / Freestyle**
 
-
-
-  *(Don't show this prompt — use it live based on audience questions)*
-
-
-
-  *Ask the audience: "What would YOU like to explore in this data?"*
-
-
-
-  **Purpose: Most impressive moment — live, unscripted analysis driven by the room. Shows this is not canned.**
